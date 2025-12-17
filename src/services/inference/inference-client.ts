@@ -1,6 +1,6 @@
-import type { BaseModel } from '@/app/config/models'
 import { ChatError } from '@/components/chat/chat-utils'
 import type { Message } from '@/components/chat/types'
+import type { BaseModel } from '@/config/models'
 import { logError } from '@/utils/error-handling'
 import { ChatQueryBuilder } from './chat-query-builder'
 import { getTinfoilClient } from './tinfoil-client'

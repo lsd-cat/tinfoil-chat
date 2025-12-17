@@ -36,6 +36,7 @@ yarn-error.log*
 
 # clerk
 .clerk/
+public/js/clerk.browser.js
 
 # vercel
 .vercel
