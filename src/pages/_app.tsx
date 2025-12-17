@@ -154,6 +154,7 @@ export default function App({ Component, pageProps }: AppProps) {
       telemetry={false}
       afterSignOutUrl="/"
       publishableKey={publishableKey}
+      clerkJSUrl="/js/clerk.browser.js"
     >
       {hydratedShell}
     </ClerkProvider>

@@ -8,10 +8,14 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "prepare": "husky install",
+    "predev": "npm run prepare-clerk-js",
+    "prebuild": "npm run prepare-clerk-js",
+    "prepare-clerk-js": "node scripts/prepare-clerk-browser.js",
     "find-unused": "ts-unused-exports tsconfig.json"
   },
   "dependencies": {
     "@braintree/sanitize-url": "^7.1.1",
+    "@clerk/clerk-js": "^5.43.0",
     "@clerk/nextjs": "^6.21.0",
     "@headlessui/react": "^2.1.1",
     "@heroicons/react": "^2.1.4",

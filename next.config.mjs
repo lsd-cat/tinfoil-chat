@@ -37,7 +37,7 @@ const nextConfig = {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://*.tinfoil.sh https://clerk.accounts.dev https://*.clerk.accounts.dev https://tinfoilsh.github.io https://vercel.live",
+              "script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://*.tinfoil.sh https://tinfoilsh.github.io https://vercel.live",
               "worker-src 'self' blob:",
               "style-src 'self' 'unsafe-inline'",
               "font-src 'self' data:",
