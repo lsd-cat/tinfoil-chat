@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
